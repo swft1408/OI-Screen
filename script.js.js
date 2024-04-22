@@ -3,8 +3,8 @@ const WebSocket = require("ws");
 const axios = require("axios");
 
 // Определяются константы
-const TELEGRAM_TOKEN = "7049105114:AAEmHCwlphuJI13ZIFQ24fOYSSWoRPWUq_0";
-const TELEGRAM_CHAT_ID = "@ggg888_1";
+const TELEGRAM_TOKEN = "YOIR_TOKEN";
+const TELEGRAM_CHAT_ID = "@YOUR_ID";
 const WS_URL = "wss://fstream.binance.com/stream?streams=!miniTicker@arr";
 
 /*Переменная pairDataCache используется для кэширования данных о торговых парах, представленных объектами PairData.
